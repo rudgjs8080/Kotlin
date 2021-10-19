@@ -1,0 +1,49 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+.main_header{
+	width: 70%;
+	height: 10rem;
+    margin: 0 auto;
+    padding-top: 20px ;
+    background-color: skyblue;
+}
+.main_header h1{
+width: 80%;
+margin: 10px auto;
+text-align: center;
+}
+.main_nav {
+    width:80%;
+	display: flex;
+    margin: 10px auto;
+
+
+}
+.main_nav div{
+    flex: 1;
+    flex-direction: row;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    margin: 10px;
+}
+.main_nav div:hover{
+background-color: orange;}
+
+.main_list {
+	width: 70%;
+	margin: 10px auto;
+}
+.list_table{
+width:100%;
+margin: 0 auto;}
+.main_tr{
+background-color: gray;}
+.main_tr td,
+.list_tr td{
+text-align:center;}
+
+

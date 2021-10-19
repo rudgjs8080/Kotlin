@@ -1,22 +1,8 @@
 <!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <title>KSpring_02</title>
-    <link rel="stylesheet" type="text/css" href="/static/home.css">
-</head>
-
-<body>
-<div class="main_header">
-    <h1>나라상사 고객관리 시스템 2021V1</h1>
-    <div class="main_nav">
-        <div>Home</div>
-        <div>주문관리</div>
-        <div>결제관리</div>
-        <div>로그인</div>
-    </div>
-</div>
-<div class="main_list">
+<html lang="ko"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+    layout:decorator="layout">
+<div class="main_list" layout:fragment="content">
     <table class="list_table">
         <tr class="main_tr">
             <td>고객ID</td>
@@ -36,8 +22,15 @@
             <td>010-2222-2222</td>
             <td>1234</td>
         </tr>
+        <tr class="list_tr">
+            <td>C002</td>
+            <td>손흥민</td>
+            <td>010-1234-4567</td>
+            <td>서울특별시</td>
+            <td>손차박</td>
+            <td>010-2222-2222</td>
+            <td>1234</td>
+        </tr>
     </table>
 </div>
-
-</body>
 </html>
