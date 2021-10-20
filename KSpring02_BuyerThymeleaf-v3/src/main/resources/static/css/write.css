@@ -1,0 +1,21 @@
+.input_box {
+    width: 65%;
+    display: flex;
+    margin: 10px auto;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 30px;
+}
+.input_box input {
+flex: 1;
+width: 40%;
+height: 10%;
+margin: 15px auto;
+border: 1px solid #ccc;
+border-radius : 15px;
+text-align: center;
+}
+.input_box input:hover{
+background-color: #ccc;
+border:none;}
