@@ -1,0 +1,7 @@
+com:
+  callor:
+    spring:
+      student-file: "student.txt"
+      app-name: "나의 첫 Boot Project"
+      app-verison: 1.0
+      
