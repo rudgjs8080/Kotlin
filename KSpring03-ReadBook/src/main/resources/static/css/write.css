@@ -1,0 +1,29 @@
+.read_write {
+    width: 80%;
+    margin: 10px auto;
+
+}
+.write_main {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 10px auto;
+}
+.write_main div {
+    margin-right: auto;
+}
+.btn_box {
+    margin-left: auto;
+}
+.btn_delete {
+    background-color: blue;
+    color: white;
+}
+.btn_save {
+    background-color: red;
+    color: white;
+}
+.btn_list {
+    background-color: darkgoldenrod;
+    color: black;
+}
