@@ -66,9 +66,10 @@ class BuyerController(val bService: BuyerService) {
         model["BUYER"] = Buyer()
         return "buyer/write"
     }
-
+z
     @RequestMapping(value = ["/insert"], method = [RequestMethod.POST])
     fun insert(model: Model, buyer: Buyer): String {
+
         bService.insert(buyer)
         return "redirect:/buyer/list"
     }

@@ -7,7 +7,6 @@ import javax.persistence.*
 @Table(name = "tb_readbook", schema = "naraDB")
 data class ReadBook (
     @Id
-    @Column(columnDefinition = "BIGINT")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     var seq : Int? = null,
     var isbn : String? = null,

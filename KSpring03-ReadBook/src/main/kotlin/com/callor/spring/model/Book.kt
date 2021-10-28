@@ -9,15 +9,11 @@ data class Book (
     @Column(columnDefinition = "VARCHAR(20)", nullable = false, unique = true, name = "isbn")
     var isbn : String? = null,
 
-    @Column(columnDefinition = "VARCHAR(25)", nullable = false)
     var title : String? = null,
 
-    @Column(columnDefinition = "VARCHAR(25)", nullable = false)
     var comp : String? = null,
 
-    @Column(columnDefinition = "VARCHAR(25)", nullable = false)
     var author : String? = null,
 
-    @Column(nullable = true)
     var price : Int? = null,
 )
